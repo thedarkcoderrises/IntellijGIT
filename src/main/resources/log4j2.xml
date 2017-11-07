@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="warn" name="MyApp" packages="">
     <Appenders>
-        <File name="my_file_appender" fileName="C:\\logs\\ELK\\JSON\\JSONLog.json">
-            <JSONLayout />
+        <File name="my_file_appender" fileName="C:\\logs\\ELK\\JSON\\JSONLog.log">
+            <JSONLayout eventEOL="true" compact="true"/>
         </File>
     </Appenders>
 
