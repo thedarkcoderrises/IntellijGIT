@@ -21,15 +21,6 @@ public class App
 
 void printJSONLg(){
 
-	//test
-    int val1 = 10, val2 = 11, val3 = 12;
-    logger.trace("val1={}, val2={}, val3={}", val1, val2, val3);
-    logger.debug("val1={}, val2={}, val3={}", val1, val2, val3);
-    logger.info("val1={}, val2={}, val3={}", val1, val2, val3);
-    logger.warn("val1={}, val2={}, val3={}", val1, val2, val3);
-    logger.error("val1={}, val2={}, val3={}", val1, val2, val3);
-    logger.fatal("val1={}, val2={}, val3={}", val1, val2, val3);
-}
 
     for (int i=0;i<20;i++){
         if(i/2==0){
