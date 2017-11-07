@@ -20,6 +20,8 @@ public class App
     }
 
 void printJSONLg(){
+	
+	//test
     int val1 = 10, val2 = 11, val3 = 12;
     logger.trace("val1={}, val2={}, val3={}", val1, val2, val3);
     logger.debug("val1={}, val2={}, val3={}", val1, val2, val3);
